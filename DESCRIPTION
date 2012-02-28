@@ -1,14 +1,14 @@
 Package: QUIC
 Type: Package
-Title: Regularized sparse inverse covariance matrix estimation
-Version: 1.1
+Title: Estimate sparse inverse correlation matrix using regularization
+Version: 2012.02
 Authors@R: c(person(given = "Cho-Jui", family = "Hsieh", role = "aut"),
         person(given = "Matyas A.", family = "Sustik", role = c("aut",
         "cre"), email = "sustik@cs.utexas.edu"), person(given =
         "Inderjit S.", family = "Dhillon", role = "aut"), person(given
         = "Pradeep", family = "Ravikumar", role = "aut"))
 Description: Use Newton's method and coordinate descent to solve the
-        regularized inverse covariance matrix estimation problem.
+        regularized inverse correlation matrix estimation problem.
         Please refer to: Sparse Inverse Covariance Matrix Estimation
         Using Quadratic Approximation, Cho-Jui Hsieh, Matyas A. Sustik,
         Inderjit S. Dhillon, Pradeep Ravikumar, Advances in Neural
@@ -18,9 +18,9 @@ License: GPL-3
 URL: http://www.r-project.org,
         http://www.cs.utexas.edu/users/sustik/QUIC
 BugReports: sustik@cs.utexas.edu
-Packaged: 2012-05-17 16:48:53 UTC; sustik
+Packaged: 2012-02-28 22:22:25 UTC; sustik
 Author: Cho-Jui Hsieh [aut], Matyas A. Sustik [aut, cre], Inderjit S.
         Dhillon [aut], Pradeep Ravikumar [aut]
 Maintainer: Matyas A. Sustik <sustik@cs.utexas.edu>
 Repository: CRAN
-Date/Publication: 2012-05-17 20:20:06
+Date/Publication: 2012-02-29 08:24:25
