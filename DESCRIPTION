@@ -1,7 +1,7 @@
 Package: QUIC
 Type: Package
 Title: Regularized sparse inverse covariance matrix estimation
-Version: 1.0
+Version: 1.1
 Authors@R: c(person(given = "Cho-Jui", family = "Hsieh", role = "aut"),
         person(given = "Matyas A.", family = "Sustik", role = c("aut",
         "cre"), email = "sustik@cs.utexas.edu"), person(given =
@@ -18,9 +18,9 @@ License: GPL-3
 URL: http://www.r-project.org,
         http://www.cs.utexas.edu/users/sustik/QUIC
 BugReports: sustik@cs.utexas.edu
-Packaged: 2012-05-14 21:57:43 UTC; sustik
+Packaged: 2012-05-17 16:48:53 UTC; sustik
 Author: Cho-Jui Hsieh [aut], Matyas A. Sustik [aut, cre], Inderjit S.
         Dhillon [aut], Pradeep Ravikumar [aut]
 Maintainer: Matyas A. Sustik <sustik@cs.utexas.edu>
 Repository: CRAN
-Date/Publication: 2012-05-16 07:31:30
+Date/Publication: 2012-05-17 20:20:06

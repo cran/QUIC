@@ -1,4 +1,4 @@
-// $Id: QUIC.C,v 1.52 2012-05-11 18:48:48 sustik Exp $
+// $Id: QUIC.C,v 1.53 2012-05-17 02:46:53 sustik Exp $
 
 // Solves the regularized inverse covariance matrix selection using a
 // combination of Newton's method, quadratic approximation and
@@ -9,7 +9,7 @@
 // See the README file and QUIC.m for more information.
 // Send questions, comments and license inquiries to: sustik@cs.utexas.edu
 
-#define VERSION "1.0"
+#define VERSION "1.1"
 
 #include <math.h>
 #include <stddef.h>
@@ -38,7 +38,7 @@
 #define EPS (double(2.22E-16))
 //#define EPS ((double)0x3cb0000000000000)
 
-#ifdef _WIN32
+#if !defined(LANG_R) && defined(_WIN32)
   #define dpotrf_ dpotrf
   #define dpotri_ dpotri
 #endif
