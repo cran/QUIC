@@ -1,2 +1,2 @@
-demoER	Run QUIC on the ER dataset.
-demoERpath  Run QUIC on the ER dataest in path mode.
+ER	Run QUIC on the ER dataset in default mode.
+ERpath  Run QUIC on the ER dataset in path mode.
